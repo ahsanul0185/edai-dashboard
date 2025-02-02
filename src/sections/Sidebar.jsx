@@ -8,8 +8,10 @@ const Sidebar = () => {
       <div className="h-full flex flex-col justify-between ">
         <img className="w-14 mx-auto" src={logo} alt="" />
 
-        <a href="https://edai123.netlify.app/">
-          <button className="text-white text-sm duration-200 hover:text-[#e9e9e9] group flex gap-3">
+
+          <button onClick={() =>
+          (window.location.href="https://edai-two.vercel.app/")
+        } className="text-white text-sm duration-200 hover:text-[#e9e9e9] group flex gap-3">
             <img
               src={icon_logout}
               className="w-5 group-hover:opacity-85 duration-200"
@@ -17,7 +19,7 @@ const Sidebar = () => {
             />
             <span>Kirjaudu ulos</span>
           </button>
-        </a>
+
       </div>
     </div>
   );
