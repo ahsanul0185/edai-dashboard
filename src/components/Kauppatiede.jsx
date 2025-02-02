@@ -7,7 +7,7 @@ const Kauppatiede = () => {
 
   return (
     <div
-      className={`relative h-72 md:h-[350px] flex z-0  overflow-hidden py-6 px-8 rounded-xl bg-red-700`}
+      className={`relative h-72 md:h-[350px] flex z-0  overflow-hidden py-6 px-8 rounded-xl`}
     >
       {/* bg image & dark overlay */}
       <img
