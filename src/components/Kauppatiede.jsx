@@ -3,7 +3,7 @@ import bg_image from "/images/img_valitse.jpg";
 import Timer from "./Timer";
 
 const Kauppatiede = () => {
-  const date = "2025-04-06T09:00:00Z"; // set UTC time here
+  const date = "2025-06-04T09:00:00Z"; // set UTC time here
 
   return (
     <div
